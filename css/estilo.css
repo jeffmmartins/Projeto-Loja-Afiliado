@@ -1,0 +1,124 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #2E9CB3;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1.2em;
+  color: black;
+}
+
+/* Estilizando Cabeçalho*/
+#cabecalho {
+  background: linear-gradient(95deg, black, #122252, #3574F2);
+  color: #f5f5dc;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 290px;
+}
+
+header img {
+ padding-left: 10px;
+}
+
+.foto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#midiasSociais{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+#midiasSociais img{
+ margin-top: 10px;
+ padding: 0px;
+}
+
+.logo{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  margin-top: 20px;
+}
+
+/* Estilizando nav*/
+
+nav{
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(85deg, black, #122252, #3574F2);
+  border-radius: 0px 0px 30px 30px;
+}
+
+input{
+  width: 500px;
+  border-radius: 10px;
+  outline: none;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+button{
+ height: 40px;
+ border-radius: 10px ;
+ outline: none;
+ background-color: black;
+ color: white;
+}
+
+.principal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* Estilizando contéudo principal*/
+
+#outResposta,
+#inSite{
+  text-align: center;
+}
+
+ .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+ }
+
+ .imagem{
+  border: 2px solid #108BE3;
+  border-radius: 10px;
+ }
+
+ .produtos p{
+  text-align: center;
+ }
+
+ /* ------------ Media Query------------ */
+ @media screen and (max-width: 1020px) {
+  
+   #cabecalho{
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .foto{
+    display: none;
+  }
+ }
+
+ 
